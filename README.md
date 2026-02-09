@@ -59,7 +59,8 @@ Detects your project environment
 
 ## 📁 Supported Package Managers
 
-✅ npm ✅ yarn
+- ✅ npm 
+- ✅ yarn
 
 
 ## 📜 No-Claim Policy
