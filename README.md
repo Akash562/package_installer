@@ -23,8 +23,6 @@ All third-party packages belong to their respective authors and licenses.
 
 ## 📦 Installation
 
-You can use the tool **without installing globally** (recommended):
-
 Run the command inside your React or React Native project:
 
 ```bash

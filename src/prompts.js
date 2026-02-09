@@ -9,8 +9,8 @@ export async function getUserChoices() {
         name: "selectedPackages",
         message: "Select packages to install:",
         choices: PACKAGES.map(p => ({
-            name: p.name,
-            value: p.name
+            name: p,
+            value: p
         }))
     });
 
