@@ -4,6 +4,11 @@ An interactive CLI tool to quickly install commonly used **React** and **React N
 
 No more remembering package names or running multiple install commands — just select and install 🎯
 
+## Disclaimer
+
+This tool does not claim ownership of any installed packages.  
+All third-party packages belong to their respective authors and licenses.
+
 ---
 
 ## ✨ Features
@@ -20,22 +25,16 @@ No more remembering package names or running multiple install commands — just 
 
 You can use the tool **without installing globally** (recommended):
 
-```bash
-npm install rn-package-installer
-npx rn-package-installer
-```
-
-## ▶️ Usage
-
 Run the command inside your React or React Native project:
+
 ```bash
-npx rn-package-installer
+npx @npm_akash/rn-package-installer
 ```
 
 ## You’ll see an interactive flow like this:
 
 🚀 RN Package Installer
-
+```
 ? Select packages to install (Use space to select)
 ❯ ◯ axios
   ◯ moment
@@ -47,6 +46,7 @@ npx rn-package-installer
 
 Installing packages using npm...
 ✔ Done!
+```
 
 ## 🧠 How it works
 
@@ -59,8 +59,8 @@ Detects your project environment
 
 ## 📁 Supported Package Managers
 
-✅ npm
-✅ yarn
+- ✅ npm
+- ✅ yarn
 
 
 ## ⚠️ Important Notes
@@ -71,7 +71,21 @@ This is intentional and follows npm best practices
 
 Always run it using:
 
-npx rn-package-installer
+npx @npm_akash/rn-package-installer
+
+
+
+## 📜 No-Claim Policy
+
+`@npm_akash/rn-package-installer` is an independent utility tool.
+
+- This project does **not own, control, or maintain** any third-party packages it installs.
+- All trademarks, package names, and copyrights belong to their respective owners.
+- The CLI acts only as an **installer and helper**, executing the official package manager commands (`npm` / `yarn`).
+
+Use of any installed package is governed by the **original package license and terms**.
+
+
 
 
 ## 📄 License
