@@ -1,6 +1,6 @@
 {
     "name": "@npm_akash/rn-package-installer",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Interactive package installer for React and React Native",
     "type": "module",
     "main": "bin/cli.js",

@@ -1,0 +1,29 @@
+name: Publish to npm
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    publish:
+        if: contains(github.event.head_commit.message, 'release:')
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repo
+              uses: actions/checkout@v4
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 18
+                  registry-url: https://registry.npmjs.org/
+
+            - name: Install deps
+              run: npm ci
+
+            - name: Publish
+              run: npm publish --access public
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
