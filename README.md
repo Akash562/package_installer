@@ -59,20 +59,7 @@ Detects your project environment
 
 ## 📁 Supported Package Managers
 
-- ✅ npm
-- ✅ yarn
-
-
-## ⚠️ Important Notes
-
-The CLI does NOT auto-run on npm install
-
-This is intentional and follows npm best practices
-
-Always run it using:
-
-npx @npm_akash/rn-package-installer
-
+✅ npm ✅ yarn
 
 
 ## 📜 No-Claim Policy
@@ -84,7 +71,6 @@ npx @npm_akash/rn-package-installer
 - The CLI acts only as an **installer and helper**, executing the official package manager commands (`npm` / `yarn`).
 
 Use of any installed package is governed by the **original package license and terms**.
-
 
 
 
